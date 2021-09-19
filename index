@@ -1,0 +1,22 @@
+#!/bin/bash
+clear
+# THIS STAMP
+SCR_THIS="index"
+HELP_THIS="index_help"
+HEAD_THIS="index"
+
+MAINTOOl=$(eval 'dirname "$(realpath $0)"')
+
+LIB=${MAINTOOl}"/lib"
+source ${LIB}
+
+source ${M_COLORS}
+source ${M_FUNCTION}
+source ${M_STAMP}
+source ${M_MSG}
+cd ${MAINTOOl}
+source ${M_MENU}
+exit;
+
+#exec 5> debug.txt
+#BASH_XTRACEFD="5"
