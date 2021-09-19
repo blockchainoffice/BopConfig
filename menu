@@ -1,0 +1,13 @@
+#!/bin/bash
+clear
+
+SCR_THIS=${M_MENU}
+HELP_THIS=${M_MENU_HELP}
+HEAD_THIS="🐧${Clila}Main|"
+
+M_MAIN=${M_MENU_MAIN}
+M_CASE=${M_MENU_CASE}
+
+source ${M_TEMPLATE}
+source ${M_MENU}
+exit
